@@ -4,7 +4,24 @@
   padding: 0;
   font-family: Arial, sans-serif;
 }
+.participant-card {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 2px solid #4caf50;
+  border-radius: 8px;
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
 
+.participant-card h4 {
+  margin-bottom: 10px;
+  color: #388e3c;
+}
+
+.participant-card p {
+  font-size: 14px;
+  color: #1b5e20;
+}
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -72,6 +89,20 @@ section h3 {
 
 .activity-card p {
   margin-bottom: 8px;
+}
+
+.activity-card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: disc;
+  color: #555;
+}
+
+.activity-card ul li {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+  font-style: italic;
 }
 
 .form-group {
